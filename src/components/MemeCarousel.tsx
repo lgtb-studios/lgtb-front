@@ -5,6 +5,7 @@ import { JSX, useCallback } from 'react'
 import Image from 'next/image'
 import { memeImages } from '../utils/MemeImages'
 
+/* add new images to /utils/MemeImages.ts file */
 export default function MemeCarousel(): JSX.Element {
     const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
         AutoPlay({ delay: 4000 })
@@ -42,7 +43,7 @@ export default function MemeCarousel(): JSX.Element {
                     </div>
 
                     <button
-                        className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/30 
+                        className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/5 hover:bg-white/15 
                      backdrop-blur-sm rounded-full p-2 transition-all"
                         onClick={scrollPrev}
                         type="button"
@@ -64,7 +65,7 @@ export default function MemeCarousel(): JSX.Element {
                     </button>
 
                     <button
-                        className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/30 
+                        className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/5 hover:bg-white/15 
                      backdrop-blur-sm rounded-full p-2 transition-all"
                         onClick={scrollNext}
                         type="button"

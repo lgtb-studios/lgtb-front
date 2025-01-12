@@ -1,10 +1,11 @@
-'use client'
 import Image from "next/image";
 import Link from "next/link";
 
+/** Remove comments to bring back tokenomics */
+/** Change Content here */
 const content = {
     lgtbTokenImage: "/avi.png",
-    tokenomicsImage: "/tokenomics.jpg",
+    // tokenomicsImage: "/tokenomics.jpg",
     title: "LGTB Tokenomics",
     callToAction: "Earn real, passive income",
     callToAction2: 'through daily staking rewards.',
@@ -26,16 +27,13 @@ export default function Tokenomics() {
                         />
                     </div> */}
                     <div className="flex flex-col md:flex-row gap-5 text-center md:text-left items-center">
-                        <div className="relative w-24 h-24 md:w-150 md:h-150 rounded-full overflow-hidden flex items-center justify-center bg-white/10 margin-auto">
-                            <Image
-                                src={content.lgtbTokenImage}
-                                alt="LGTB Frog Logo"
-                                width={96}
-                                height={96}
-                                className="rounded-full scale-95"
-                            />
-                        </div>
-
+                        <Image
+                            src={content.lgtbTokenImage}
+                            alt="LGTB Frog Logo"
+                            width={96}
+                            height={96}
+                            className="rounded-full shadow-lg"
+                        />
                         <Link
                             key={content.callToActionLink}
                             href='stake and earn'

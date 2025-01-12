@@ -2,6 +2,7 @@ import MainLinks from "@/components/MainLinks";
 import MemeCarousel from "@/components/MemeCarousel";
 import Tokenomics from "@/components/Tokenomics";
 
+/** change content text here */
 const content = {
   title: "Welcome to $LGTB",
   subtitle: "A New Era of Meme Coins",

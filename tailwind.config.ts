@@ -12,6 +12,12 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      width: {
+        "100": "100px",
+      },
+      height: {
+        "100": "100px",
+      },
     },
   },
   plugins: [],

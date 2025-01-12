@@ -1,10 +1,12 @@
-'use client'
 import Image from "next/image";
 
+/** Change banner content here */
+/** to change banner image add new image to /public folder 
+ * and change [bannerImage] to desired image from /public folder */
 const content = {
     bannerImage: "/header.png",
     title: "LET'S GET THIS BREAD",
-    description: "@LGTBonSol"
+    subtitle: "@LGTBonSol"
 };
 
 export default function Banner() {
@@ -31,7 +33,7 @@ export default function Banner() {
                     </h1>
                     <p className="text-lg md:text-2xl text-white drop-shadow-[0_4px_4px_rgba(0,0,0,0.8)]
                                px-4 py-2 text-center">
-                        {content.description}
+                        {content.subtitle}
                     </p>
                 </div>
             </div>

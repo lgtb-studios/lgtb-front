@@ -4,7 +4,9 @@ interface MemeImage {
   width?: number;
   height?: number;
 }
-
+/* Add Images to /public/memes folder */
+/* Add new meme image to this image Array to add to carousel */
+/* Make sure to add all fields src, alt, width, height of new meme image(order doesnt matter) */
 export const memeImages: MemeImage[] = [
   {
     src: "/memes/meme1.jpg",

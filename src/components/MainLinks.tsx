@@ -1,7 +1,7 @@
-'use client'
 import Image from "next/image";
 import Link from "next/link";
 
+/** Change links and text here */
 const navLinks = [
     {
         name: 'Link 1',
