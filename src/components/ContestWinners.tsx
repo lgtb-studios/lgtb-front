@@ -1,22 +1,21 @@
 import Link from "next/link";
 
 const content = {
-    message: 'Participate in our contests and win prizes',
+    message: 'Participate in our community contests',
     message2: 'Check out the Contest Winners!'
 }
 export default function ContestWinners() {
     return (
-        <div className="bg-white/10 backdrop-blur-lg rounded-3xl p-4  mt-8 md:p-8 shadow-2xl">
+        <div className="bg-white/10 backdrop-blur-lg rounded-3xl p-4  mt-8 md:p-8 shadow-2xl max-w-6xl mx-auto">
             <div className="relative">
 
                 <div className="flex flex-col gap-3 md:gap-4 w-full">
 
                     <Link
 
-                        href='/'
-                        className="group bg-white/5 hover:bg-white/15 rounded-xl transition-all duration-300 
-                       flex items-center gap-3 md:gap-4 p-3 md:p-4 backdrop-blur-sm border border-white/10 
-                       hover:border-white/20 h-[64px] md:h-[84px] w-full"
+                        href='https://docs.google.com/spreadsheets/d/1rN-6WN2xJDTl-4fkxbIl5z8JL1LGuOY3t8_DTCH2qg8/edit?gid=1494151330#gid=1494151330'
+                        className="flex items-center gap-4 bg-black/20 hover:bg-black/30 rounded-xl p-4 w-full
+                  transition-all duration-300 border border-white/10 hover:border-white/20"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
