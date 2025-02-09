@@ -1,3 +1,4 @@
+import AnalyticsLink from "@/components/AnalyticsLink";
 import ContestWinners from "@/components/ContestWinners";
 import GameLink from "@/components/GameLink";
 import MainLinks from "@/components/MainLinks";
@@ -29,6 +30,7 @@ export default function Home() {
 
       <Tokenomics />
       <MainLinks />
+      <AnalyticsLink />
       <GameLink />
       <ContestWinners />
       <MemeCarousel />
