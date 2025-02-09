@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const content = {
     message: 'LGTB Analytics',
-    message2: "M3M3 vault analytics and more!"
+    message2: "Track your staking rewards, APY, and vault growth across the M3M3 ecosystem—all in one place."
 }
 export default function AnalyticsLink() {
 
