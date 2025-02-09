@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     images: [
       {
-        url: '/Header.png',
+        url: 'https://lgtbread.com/Header.png',
         width: 1200,
         height: 630,
         alt: 'LGTB banner',
